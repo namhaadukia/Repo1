@@ -1,0 +1,9 @@
+
+sum=0
+for arg in $1 $2 $3
+do
+	sum=$((arg+sum))
+done
+echo sum
+
+
